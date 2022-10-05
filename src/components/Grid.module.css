@@ -1,0 +1,19 @@
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px 40px;
+  margin: 2rem; 
+}
+
+.flexitem {
+  flex-grow: 0;
+}
+
+.gridTitle {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+}
